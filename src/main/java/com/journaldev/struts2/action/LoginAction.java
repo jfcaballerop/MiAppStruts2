@@ -13,9 +13,9 @@ import org.apache.struts2.convention.annotation.Result;
  *
  */
 @Action(value = "login", results = {
-        @Result(name = "SUCCESS", location = "/welcome.jsp"),
-        @Result(name = "ERROR", location = "/error.jsp") })
-@Namespaces(value={@Namespace("/User"),@Namespace("/")})
+        @Result(name = "SUCCESS", location = "User/welcome.jsp"),
+        @Result(name = "ERROR", location = "error.jsp") })
+@Namespaces(value={@Namespace("/")})
 public class LoginAction{
 	
 	public String execute() throws Exception {

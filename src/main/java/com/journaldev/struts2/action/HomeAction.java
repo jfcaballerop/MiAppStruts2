@@ -4,6 +4,7 @@ import org.apache.struts2.convention.annotation.Actions;
 import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.Namespaces;
 import org.apache.struts2.convention.annotation.Result;
+import org.apache.struts2.convention.annotation.ResultPath;
 
 import com.opensymphony.xwork2.ActionSupport;
 /**
@@ -18,8 +19,8 @@ import com.opensymphony.xwork2.ActionSupport;
  *
  */
 
-@Namespaces(value={@Namespace("/User"),@Namespace("/")})
-@Result(location="/login.jsp")
+@Namespaces(value={@Namespace("/User")})
+@Result(location="login.jsp")
 @Actions(value={@Action(""),@Action("home")})
 public class HomeAction extends ActionSupport{
 
