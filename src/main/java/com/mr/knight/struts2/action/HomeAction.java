@@ -1,4 +1,4 @@
-package com.journaldev.struts2.action;
+package com.mr.knight.struts2.action;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Actions;
 import org.apache.struts2.convention.annotation.Namespace;
