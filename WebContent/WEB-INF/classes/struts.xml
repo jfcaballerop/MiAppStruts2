@@ -6,5 +6,5 @@
 <struts>
 
 <constant name="struts.convention.result.path" value="/"></constant>
-
+<constant name="struts.custom.i18n.resources" value="global"></constant>
 </struts>
